@@ -1,0 +1,44 @@
+body {
+	background-image: url("assets/images/upfeathers.png");
+	font-family: "Arial";
+		}
+
+header {
+	background-color: #ffffff;
+	color: #777777;
+	width: 100%;
+	line-height: 30px;
+	margin-top: 0;
+		}
+
+.absolute {
+	position: absolute;
+	margin-left: 20px;
+	padding: 20px;
+	float: left;
+		}
+
+.links {
+	position: absolute;
+	margin-left: 600px;
+	float: left;
+		}
+
+.main-bio {
+	background-color: #ffffff;
+		}
+
+img {
+	float: left;
+		}
+		
+
+.image {
+	width: 25%;
+	float: left;
+		}
+
+.contact-info {
+	float: left;
+	background-color: #ffffff;
+		}
