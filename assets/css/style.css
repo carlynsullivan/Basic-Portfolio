@@ -1,63 +1,106 @@
-body {
+* {
+	margin: 0;
 	background-image: url("assets/images/upfeathers.png");
-	font-family: "Arial";
 		}
 
-header {
-	background-color: #ffffff;
-	color: #777777;
-	width: 100%;
-	line-height: 40px;
-	margin-top: 0;
-	margin-left: 30px;
-	border-color: #cccccc;
+html, body {
+	font-family: "Arial";
+	height: 100%;
+	background-image: url("../images/upfeathers.png");
 		}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.wrapper {
+	overflow: auto;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-bottom: -50px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -50px;
+	width: 960px;
+
+		}
+
+.header {
+	position: fixed;
+	color: #777777;
+	background-color: #ffffff;
+	width: 100%;
+	height: 80px;
+	margin-top: 0;
+	margin-left: 0px;
+	border-bottom: 3px solid #cccccc;
+	display: block;
+	z-index: 4;
+	overflow: auto;
+	
+		}
+
+.logo {
+	position: relative;
+	top: 5px;
+	left: 11px;
+	background-color: #4aaaa5;
+	margin-top: 15px;
+	margin-left: 50px;
+	padding: 15px;
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	float: left;
+}
 
 h1 {
 	background-color: #4aaaa5;
 	color: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	margin-top: 0px;
-	margin-left: 50px;
-	padding: 20px;
-	width: 250px;
-	text-align: center;
+}
+
+.navigation {
+	position: relative;
+	left: 90px;
+	top: 10px;
+	bottom: 10px;
+	padding-top: 30px;
+	padding-left: 400px;
+	padding-bottom: 10px;
 	float: left;
+	width: 270px;
+	background-color: #ffffff;
+		}
+
+.vertical-line {
+	border-right: 1px solid #777777;
 }
 
 a {
 	color: #777777;
 	text-decoration: none;
-
+	padding: 10px;
 }
 
 a:hover {
 	text-decoration: underline;
 }
 
-.links {
-	margin-top: 0px
-	margin-left: 60px;
-	padding-top: 20px;
-	padding-bottom: 10px;
-	float: left;
-		}
-
-.container {
-	clear: both;
-	overflow: auto;
-	margin-top: 20px;
-	margin-right: 10px;
-	margin-left: 20px;
-	background-image: url("assets/images/upfeathers.png"); 
-}
-
-.main-bio {
+#main-bio {
+	position: absolute;
+	top: 5%;
+	left: 5%;
 	background-color: #ffffff;
 	float: left;
-	border-color: #dddddd;
-	width: 450px;
-	margin-left: 20px;
+	border: 1px solid #dddddd;
+	width: 650px;
+	margin-top: 80px;
+	margin-left: 0px;
+	padding: 20px;
+	overflow: auto;
 		}
 
 h2 {
@@ -67,15 +110,72 @@ h2 {
 
 img {
 	float: left;
+	margin-right: 20px;
 }
+
 		
-.contact-info {
+#contact-info {
+	
+	position: absolute;
 	float: left;
+	top: 16%;
+	right: 0;
+	bottom: 0;
+	left: 62%;
 	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	padding: 20px;
+	width: 270px;
+	height: 130px;
+	content-align: center;
+	overflow: auto;
 		}
 
-footer {
+h3 {
+	color: #4aaaa5;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+.hr {
+	position: absolute;
+	left: 17%;
+	width: 200px;
+	justify-content: center;
+}
+
+.icons-group {
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	justify-content: center;
+	overflow: auto;
+}
+
+.icons {
+	position: relative;
+	height: 50px;	
+}
+
+.icon-so {
+	position: relative;
+	bottom: 15px;
+	height: 45px;
+}
+
+.push {
+	visibility: hidden;
+} 
+
+.footer {
+	top: 20px;
+	width: 100%;
 	text-align: center;
 	padding: 20px;
 	background-color: #cccccc;
+	border-top: 5px solid #4aaaa5;
+}
+
+.footer, .push {
+	height: 50px;
 }
