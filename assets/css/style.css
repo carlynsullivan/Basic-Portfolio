@@ -1,13 +1,12 @@
 * {
 	margin: 0;
-	background-image: url("assets/images/upfeathers.png");
-		}
+}
 
 html, body {
 	font-family: "Arial";
 	height: 100%;
 	background-image: url("../images/upfeathers.png");
-		}
+}
 
 hr {
 	margin-top: 10px;
@@ -24,8 +23,7 @@ hr {
 	height: 100%;
 	margin: 0 auto -50px;
 	width: 960px;
-
-		}
+}
 
 .header {
 	position: fixed;
@@ -44,12 +42,14 @@ hr {
 
 .logo {
 	position: relative;
-	top: 5px;
+	top: -5px;
+	right: 0px;
+	bottom: 0px;
 	left: 11px;
 	background-color: #4aaaa5;
 	margin-top: 15px;
 	margin-left: 50px;
-	padding: 15px;
+	padding: 10px;
 	width: 250px;
 	height: 50px;
 	text-align: center;
@@ -57,18 +57,18 @@ hr {
 }
 
 h1 {
-	background-color: #4aaaa5;
+	padding: 5px;
 	color: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .navigation {
 	position: relative;
-	left: 90px;
+	left: 510px;
 	top: 10px;
 	bottom: 10px;
 	padding-top: 30px;
-	padding-left: 400px;
+	padding-left: 0px;
 	padding-bottom: 10px;
 	float: left;
 	width: 270px;
@@ -91,26 +91,72 @@ a:hover {
 
 #main-bio {
 	position: absolute;
-	top: 5%;
+	top: 15%;
 	left: 5%;
 	background-color: #ffffff;
 	float: left;
 	border: 1px solid #dddddd;
 	width: 650px;
-	margin-top: 80px;
+	height: 555px;
+	margin-top: 0px;
 	margin-left: 0px;
 	padding: 20px;
 	overflow: auto;
 		}
 
 h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	align: left;
 }
 
-img {
+img.biopic {
 	float: left;
 	margin-right: 20px;
+}
+
+.pics {
+	position: absolute;
+	float: left;
+	margin: 5px;
+}
+
+.pic1 {
+	left: 5%;
+}
+
+.pic2 {
+	left: 60%;
+}
+
+.pic3 {
+	left: 5%;
+	top: 40%;
+}
+
+.pic4 {
+	left: 60%;
+	top: 40%;
+}
+
+.pic5 {
+	left: 5%;
+	top: 68%;
+}
+
+.banner {
+	position: relative;
+	top: -70px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 204px;
+	height: 40px;
+}
+
+h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-top: 5px;
+	text-align: center;
 }
 
 		
@@ -118,10 +164,10 @@ img {
 	
 	position: absolute;
 	float: left;
-	top: 16%;
+	top: 15%;
 	right: 0;
 	bottom: 0;
-	left: 62%;
+	left: 65%;
 	background-color: #ffffff;
 	border: 1px solid #dddddd;
 	padding: 20px;
@@ -132,6 +178,7 @@ img {
 		}
 
 h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	margin: 0 auto 0 auto;
 	text-align: center;
@@ -159,8 +206,16 @@ h3 {
 
 .icon-so {
 	position: relative;
-	bottom: 15px;
+	bottom: 2px;
 	height: 45px;
+}
+
+input {
+	width: 630px;
+}
+
+textarea {
+	width: 630px;
 }
 
 .push {
@@ -178,4 +233,5 @@ h3 {
 
 .footer, .push {
 	height: 50px;
+	clear: both;
 }
