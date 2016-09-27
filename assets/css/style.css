@@ -160,6 +160,8 @@ h4 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	margin-top: 5px;
 	text-align: center;
+	position: relative;
+	top: 10px;
 }
 
 		
@@ -198,7 +200,7 @@ h3 {
 .icons-group {
 	position: absolute;
 	top: 40%;
-	left: 20%;
+	left: 15%;
 	justify-content: center;
 	overflow: auto;
 }
