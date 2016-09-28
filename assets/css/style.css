@@ -8,23 +8,7 @@ html, body {
 	background-image: url("../images/upfeathers.png");
 }
 
-hr {
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.wrapper {
-	overflow: auto;
-	margin-right: 10px;
-	margin-left: 20px;
-	margin-bottom: -50px;
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -50px;
-	width: 960px;
-}
-
+/* header for every html page */
 .header {
 	position: fixed;
 	color: #777777;
@@ -38,8 +22,9 @@ hr {
 	z-index: 4;
 	overflow: auto;
 	
-		}
+}
 
+/* part of header */
 .logo {
 	position: relative;
 	top: -5px;
@@ -57,6 +42,7 @@ hr {
 	float: left;
 }
 
+/* part of header */
 h1 {
 	padding: 5px;
 	color: #ffffff;
@@ -64,6 +50,7 @@ h1 {
 	font-size: 35px;
 }
 
+/* part of header */
 .navigation {
 	position: relative;
 	left: 510px;
@@ -77,25 +64,48 @@ h1 {
 	background-color: #ffffff;
 		}
 
+/* main content horizontal rule */
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* body content excluding header, push div, and footer */
+.wrapper {
+	overflow: auto;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-bottom: -50px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -50px;
+	width: 960px;
+}
+
 .vertical-line {
 	border-right: 1px solid #777777;
 }
 
+/* includes links in header navigation and sidebar */
 a {
 	color: #777777;
 	text-decoration: none;
 	padding: 10px;
 }
 
+/* links specifically in portfolio pic banners */
 a.port-link {
 	color: #ffffff;
 	text-decoration: none;
 }
 
+/* links in header navigation and portfolio pic banners */
 a:hover {
 	text-decoration: underline;
 }
 
+/* main content section unique to index.html */
 #main-bio {
 	position: absolute;
 	top: 15%;
@@ -109,8 +119,9 @@ a:hover {
 	margin-left: 0px;
 	padding: 20px;
 	overflow: auto;
-		}
+}
 
+/* main content section common to all html files excluding index.html */
 .main-content {
 	position: absolute;
 	top: 15%;
@@ -124,8 +135,9 @@ a:hover {
 	margin-left: 0px;
 	padding: 20px;
 	overflow: hidden;
-		}
+}
 
+/* header in all main content areas */
 h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
@@ -133,11 +145,13 @@ h2 {
 	font-size: 30px;
 }
 
+/* bio pic/headshot for index.html */
 img.biopic {
 	float: left;
 	margin-right: 20px;
 }
 
+/* all portfolio item pics */
 .pics {
 	position: absolute;
 	float: left;
@@ -167,6 +181,7 @@ img.biopic {
 	top: 68%;
 }
 
+/* all portfolio item banners */
 .banner {
 	position: relative;
 	top: -70px;
@@ -176,6 +191,7 @@ img.biopic {
 	height: 40px;
 }
 
+/* portfolio banner headings */
 h4 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	margin-top: 5px;
@@ -185,6 +201,7 @@ h4 {
 	font-size: 15px;
 }
 
+/* contact page form input fields */
 input {
 	width: 630px;
 	border-color: lightgray;
@@ -192,6 +209,7 @@ input {
 	margin-top: 3px;
 }
 
+/* contact page form textarea field */
 textarea {
 	width: 630px;
 	border-color: lightgray;
@@ -199,6 +217,7 @@ textarea {
 	margin-top: 3px;
 }
 
+/* contact page form button */
 button {
 	background-color: #4aaaa5;
 	border: none;
@@ -208,9 +227,8 @@ button {
 	font-size: 12px;
 }
 
-		
+/* sidebar on all html pages */
 #contact-info {
-	
 	position: absolute;
 	float: left;
 	top: 15%;
@@ -224,8 +242,9 @@ button {
 	height: 130px;
 	content-align: center;
 	overflow: auto;
-		}
+}
 
+/* sidebar heading */
 h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
@@ -234,6 +253,7 @@ h3 {
 	font-size: 20px;
 }
 
+/* sidebar horizontal rule */
 .hr {
 	position: absolute;
 	left: 17%;
@@ -241,6 +261,7 @@ h3 {
 	justify-content: center;
 }
 
+/* sidebar div including all icons */
 .icons-group {
 	position: absolute;
 	top: 40%;
@@ -249,21 +270,25 @@ h3 {
 	overflow: auto;
 }
 
+/* sidebar div for icon images */
 .icons {
 	position: relative;
 	height: 50px;	
 }
 
+/* stack overflow icon for unique height specification */
 .icon-so {
 	position: relative;
 	bottom: 2px;
 	height: 45px;
 }
 
+/* push div visibility to accomodate sticky footer */
 .push {
 	visibility: hidden;
 } 
 
+/* footer div */
 .footer {
 	top: 20px;
 	width: 100%;
@@ -273,6 +298,7 @@ h3 {
 	border-top: 5px solid #4aaaa5;
 }
 
+/* footer heading/copyright */
 h5 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 12px;
@@ -281,6 +307,7 @@ h5 {
 	top: 15px;
 }
 
+/* add'l specs for footer and push div to accomodate sticky footer */
 .footer, .push {
 	height: 50px;
 	clear: both;
